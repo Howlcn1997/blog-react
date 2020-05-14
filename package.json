@@ -6,9 +6,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "node-sass": "^4.14.1",
     "react": "^16.13.1",
-    "react-app-rewire-css-modules": "^1.0.0",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
   },
@@ -36,11 +34,13 @@
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
-    "react-app-rewired": "^2.0.2-next.0"
+    "husky": "^4.2.5",
+    "node-sass": "^4.14.1",
+    "react-app-rewire-css-modules": "^1.0.0",
+    "react-app-rewired": "2.0.2-next.0"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   }

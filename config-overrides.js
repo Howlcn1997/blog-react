@@ -2,20 +2,14 @@ const { injectBabelPlugin } = require("react-app-rewired");
 const rewireCssModules = require("react-app-rewire-css-modules");
 const path = require("path");
 
-// CSS 模块化配置
-const cssRegex = /\.css$/;
-const cssModuleRegex = /\.module\.css$/;
-const sassRegex = /\.(scss|sass)$/;
-const sassModuleRegex = /\.module\.(scss|sass)$/;
-
 module.exports = function override(config, env) {
   //do stuff with the webpack config...
 
   //启用ES7的修改器语法（babel 7）
-  config = injectBabelPlugin(
-    ["@babel/plugin-proposal-decorators", { legacy: true }],
-    config
-  );
+  // config = injectBabelPlugin(
+  //   ["@babel/plugin-proposal-decorators", { legacy: true }],
+  //   config
+  // );
   //css模块化
   config = rewireCssModules(config, env);
 
