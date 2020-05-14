@@ -44,3 +44,33 @@ type ：用于表明我们这次提交的改动类型，是新增了功能？还
 optional scope：一个可选的修改范围。用于标识此次提交主要涉及到代码中哪个模块。
 
 description：一句话描述此次提交的主要内容，做到言简意赅。
+
+
+
+## 样式规范
+
+> 项目已配置CSS Module
+
+使用方式
+
+```
+├── index
+     ├── index.js
+     └── index.module.css
+```
+
+```jsx
+// index.js
+import STYLE form "./index.module.scss"
+export default () => {
+    return <div className={STYLE.wrap}>WRAP</div>
+}
+```
+
+```scss
+// index.module.css
+.wrap {
+    background-color: skyblue
+}
+```
+

@@ -1,5 +1,5 @@
 import React from "react";
-
+import STYLES from "./index.module.scss";
 export default () => {
-  return <div>This Is Index</div>;
+  return <div className={STYLES.wrap}>This Is Index</div>;
 };
