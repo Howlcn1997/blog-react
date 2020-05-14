@@ -10,8 +10,6 @@ module.exports = function override(config, env) {
   //   ["@babel/plugin-proposal-decorators", { legacy: true }],
   //   config
   // );
-  //css模块化
-  config = rewireCssModules(config, env);
 
   //antd按需加载
   // config = injectBabelPlugin(
