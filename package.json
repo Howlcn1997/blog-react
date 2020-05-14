@@ -14,7 +14,8 @@
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prettier": "prettier --config .prettierrc --write 'src/**/*.{js,jsx,ts,tsx,json,css,scss,md}'"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -35,13 +36,22 @@
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
     "husky": "^4.2.5",
+    "lint-staged": "^10.2.2",
     "node-sass": "^4.14.1",
+    "prettier": "^2.0.5",
     "react-app-rewire-css-modules": "^1.0.0",
     "react-app-rewired": "2.0.2-next.0"
   },
   "husky": {
     "hooks": {
+      "pre-commit": "lint-staged",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier --config .prettierrc --write",
+      "git add"
+    ]
   }
 }
