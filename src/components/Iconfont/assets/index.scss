@@ -1,0 +1,1124 @@
+@font-face {
+  font-family: 'nui';
+  src: url('./fonts/fonts/nui.eot?iofii8');
+  src: url('./fonts/fonts/nui.eot?iofii8#iefix') format('embedded-opentype'),
+    url('./fonts/fonts/nui.ttf?iofii8') format('truetype'), url('./fonts/fonts/nui.woff?iofii8') format('woff'),
+    url('./fonts/fonts/nui.svg?iofii8#nui') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^='nui-icon-'],
+[class*=' nui-icon-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'nui' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-nav-base:before {
+  content: '\e9ca';
+}
+.icon-consult_bot:before {
+  content: '\e9ad';
+}
+.icon-good:before {
+  content: '\e9ae';
+}
+.icon-homepage:before {
+  content: '\ea4f';
+}
+.icon-calling:before {
+  content: '\ea30';
+}
+.icon-structure:before {
+  content: '\ea24';
+}
+.icon-date_stress:before {
+  content: '\ea11';
+}
+.icon-data_display:before {
+  content: '\ea02';
+}
+.icon-accumulate:before {
+  content: '\e9fc';
+}
+.icon-nav-archives:before {
+  content: '\e9e5';
+}
+.icon-nav-brand:before {
+  content: '\e9e6';
+}
+.icon-nav-computer:before {
+  content: '\e9e7';
+}
+.icon-nav-departure:before {
+  content: '\e9e8';
+}
+.icon-nav-option:before {
+  content: '\e9e9';
+}
+.icon-nav-Recommend:before {
+  content: '\e9ea';
+}
+.icon-nav-service:before {
+  content: '\e9eb';
+}
+.icon-nav-statement:before {
+  content: '\e9ec';
+}
+.icon-job-2:before {
+  content: '\e9e2';
+}
+.icon-ai_hunter:before {
+  content: '\e9e3';
+}
+.icon-statement:before {
+  content: '\e9dd';
+}
+.icon-building:before {
+  content: '\e9db';
+}
+.icon-Parent:before {
+  content: '\e9d2';
+}
+.icon-Proportion:before {
+  content: '\e9d3';
+}
+.icon-school:before {
+  content: '\e9d4';
+}
+.icon-buy:before {
+  content: '\e9d1';
+}
+.icon-robot_logo:before {
+  content: '\e9cb';
+}
+.icon-Robot:before {
+  content: '\e99a';
+}
+.icon-Spanner:before {
+  content: '\e99b';
+}
+.icon-account:before {
+  content: '\e95c';
+}
+.icon-archives:before {
+  content: '\e95d';
+}
+.icon-brand:before {
+  content: '\e95e';
+}
+.icon-nav-chengdan:before {
+  content: '\e95f';
+}
+.icon-option:before {
+  content: '\e960';
+}
+.icon-position:before {
+  content: '\e961';
+}
+.icon-Customizing_Reports:before {
+  content: '\ea5f';
+  color: #38485d;
+}
+.icon-campus-line:before {
+  content: '\ea5c';
+  color: #405070;
+}
+.icon-cost:before {
+  content: '\ea54';
+}
+.icon-scan-nav:before {
+  content: '\e9af';
+}
+.icon-project-nav:before {
+  content: '\e9b0';
+}
+.icon-pie-nav:before {
+  content: '\ea50';
+}
+.icon-company:before {
+  content: '\ea2d';
+}
+.icon-efficiency:before {
+  content: '\ea12';
+}
+.icon-Proportion_line:before {
+  content: '\ea16';
+}
+.icon-Settings_line:before {
+  content: '\ea17';
+}
+.icon-subscription:before {
+  content: '\ea18';
+}
+.icon-recommend:before {
+  content: '\ea20';
+}
+.icon-HR-interview:before {
+  content: '\e9f3';
+}
+.icon-preliminary:before {
+  content: '\e9f4';
+}
+.icon-retrial:before {
+  content: '\e9f5';
+}
+.icon-hunter:before {
+  content: '\e9e4';
+}
+.icon-suggest:before {
+  content: '\e9dc';
+}
+.icon-VK-mail:before {
+  content: '\e9d7';
+}
+.icon-VK-message:before {
+  content: '\e9d8';
+}
+.icon-entry:before {
+  content: '\e9cd';
+}
+.icon-invite:before {
+  content: '\e9ce';
+}
+.icon-offer:before {
+  content: '\e9cf';
+}
+.icon-filter-nav:before {
+  content: '\e9f1';
+}
+.icon-send:before {
+  content: '\e9d0';
+}
+.icon-VK-experience:before {
+  content: '\e9c7';
+}
+.icon-assessment-nav:before {
+  content: '\e984';
+}
+.icon-employ-nav:before {
+  content: '\e985';
+}
+.icon-interview-nav:before {
+  content: '\e986';
+}
+.icon-review-nav:before {
+  content: '\e987';
+}
+.icon-selection-nav:before {
+  content: '\e988';
+}
+.icon-flow:before {
+  content: '\e931';
+}
+.icon-done-line:before {
+  content: '\e936';
+}
+.icon-done:before {
+  content: '\e932';
+}
+.icon-info-line:before {
+  content: '\e955';
+}
+.icon-info:before {
+  content: '\e970';
+}
+.icon-warning-line:before {
+  content: '\e98d';
+}
+.icon-warning:before {
+  content: '\e933';
+}
+.icon-wrong-line:before {
+  content: '\ea55';
+}
+.icon-wrong:before {
+  content: '\ea56';
+}
+.icon-help-line:before {
+  content: '\e9ac';
+}
+.icon-info_round:before {
+  content: '\e94b';
+}
+.icon-chubei:before {
+  content: '\ea63';
+}
+.icon-zhanyong:before {
+  content: '\ea51';
+}
+.icon-zidonghua:before {
+  content: '\ea4e';
+}
+.icon-remen:before {
+  content: '\ea2c';
+}
+.icon-gongxiang:before {
+  content: '\ea2b';
+}
+.icon-cooperation:before {
+  content: '\ea22';
+}
+.icon-undetermined:before {
+  content: '\ea19';
+}
+.icon-yesterday:before {
+  content: '\ea0e';
+}
+.icon-siyouzhiwei:before {
+  content: '\ea07';
+}
+.icon-heimingdan:before {
+  content: '\ea09';
+}
+.icon-important:before {
+  content: '\e9fe';
+}
+.icon-key:before {
+  content: '\e9ff';
+}
+.icon-new:before {
+  content: '\e99d';
+}
+.icon-simizhiwei:before {
+  content: '\e997';
+}
+.icon-jinjizhiwei:before {
+  content: '\e975';
+}
+.icon-neituizhiwei:before {
+  content: '\e976';
+}
+.icon-loading:before {
+  content: '\e97d';
+}
+.icon-wave_line:before {
+  content: '\ea05';
+}
+.icon-video_hidden:before {
+  content: '\e9ba';
+}
+.icon-video_maximize:before {
+  content: '\e9bb';
+}
+.icon-video_close:before {
+  content: '\e9b9';
+}
+.icon-group_selected:before {
+  content: '\e991';
+}
+.icon-group_spread:before {
+  content: '\e992';
+}
+.icon-group_retract:before {
+  content: '\e98f';
+}
+.icon-check-box_selected:before {
+  content: '\e92d';
+}
+.icon-check-box:before {
+  content: '\e96f';
+}
+.icon-check-box_disable:before {
+  content: '\ea04';
+}
+.icon-arrow_left:before {
+  content: '\ea60';
+}
+.icon-arrow_right:before {
+  content: '\ea61';
+}
+.icon-premium:before {
+  content: '\ea5a';
+}
+.icon-visit:before {
+  content: '\ea5b';
+}
+.icon-canadian-info:before {
+  content: '\ea59';
+}
+.icon-candidate:before {
+  content: '\e9b2';
+}
+.icon-confirm:before {
+  content: '\e98e';
+}
+.icon-display:before {
+  content: '\ea4b';
+}
+.icon-rencaihuaxiang:before {
+  content: '\ea49';
+}
+.icon-book:before {
+  content: '\ea37';
+}
+.icon-chengzhang_hx:before {
+  content: '\ea38';
+}
+.icon-data_hx:before {
+  content: '\ea39';
+}
+.icon-download_hx:before {
+  content: '\ea3a';
+}
+.icon-fankui_hx:before {
+  content: '\ea3b';
+}
+.icon-fire:before {
+  content: '\ea3c';
+}
+.icon-jianzhiguan_hx:before {
+  content: '\ea3d';
+}
+.icon-quit_hx:before {
+  content: '\ea3e';
+}
+.icon-theme_hx:before {
+  content: '\ea3f';
+}
+.icon-xingge_hx:before {
+  content: '\ea40';
+}
+.icon-zhanlue_hx:before {
+  content: '\ea41';
+}
+.icon-phone_out:before {
+  content: '\ea35';
+}
+.icon-zoom:before {
+  content: '\ea36';
+}
+.icon-pause:before {
+  content: '\ea2f';
+}
+.icon-play:before {
+  content: '\ea31';
+}
+.icon-sort:before {
+  content: '\ea26';
+}
+.icon-filter-add:before {
+  content: '\ea25';
+}
+.icon-group_section:before {
+  content: '\ea21';
+}
+.icon-camera:before {
+  content: '\ea1c';
+}
+.icon-microphone:before {
+  content: '\ea1d';
+}
+.icon-amount_line:before {
+  content: '\ea0f';
+}
+.icon-analysis:before {
+  content: '\ea10';
+}
+.icon-gtasks_line:before {
+  content: '\ea13';
+}
+.icon-gtasks:before {
+  content: '\ea14';
+}
+.icon-jieduanbuwei:before {
+  content: '\ea15';
+}
+.icon-drag:before {
+  content: '\ea0b';
+}
+.icon-down-circle:before {
+  content: '\ea0c';
+}
+.icon-up-circle:before {
+  content: '\ea0d';
+}
+.icon-list_v2:before {
+  content: '\ea08';
+}
+.icon-add_more:before {
+  content: '\ea06';
+}
+.icon-pen:before {
+  content: '\ea03';
+}
+.icon-import_no:before {
+  content: '\e9fa';
+}
+.icon-import_yes:before {
+  content: '\e9fb';
+}
+.icon-assess:before {
+  content: '\e9f8';
+}
+.icon-Dragging_sorting:before {
+  content: '\e9f7';
+}
+.icon-new_folder:before {
+  content: '\e9f6';
+}
+.icon-close_small:before {
+  content: '\e9f0';
+}
+.icon-smart_phone:before {
+  content: '\e9ef';
+}
+.icon-amount:before {
+  content: '\e9ed';
+}
+.icon-integral:before {
+  content: '\e9ee';
+}
+.icon-blacklist:before {
+  content: '\e9e0';
+}
+.icon-mark:before {
+  content: '\e9df';
+}
+.icon-video_interview:before {
+  content: '\e9c9';
+}
+.icon-ending:before {
+  content: '\e9b7';
+}
+.icon-URL:before {
+  content: '\e9b8';
+}
+.icon-address:before {
+  content: '\e9b4';
+}
+.icon-history:before {
+  content: '\e99f';
+}
+.icon-Reduction:before {
+  content: '\e9a0';
+}
+.icon-scan:before {
+  content: '\e999';
+}
+.icon-e:before {
+  content: '\e998';
+}
+.icon-retract_round:before {
+  content: '\e995';
+}
+.icon-spread_round:before {
+  content: '\e996';
+}
+.icon-assign:before {
+  content: '\e9fd';
+}
+.icon-flow-menu:before {
+  content: '\e994';
+}
+.icon-pencil:before {
+  content: '\e993';
+}
+.icon-practice:before {
+  content: '\ea5d';
+  color: #666;
+}
+.icon-qualifications:before {
+  content: '\ea5e';
+  color: #666;
+}
+.icon-unread:before {
+  content: '\e990';
+}
+.icon-resume-14:before {
+  content: '\ea29';
+}
+.icon-resume-13:before {
+  content: '\ea2a';
+}
+.icon-resume-11:before {
+  content: '\ea00';
+}
+.icon-resume-12:before {
+  content: '\ea01';
+}
+.icon-resume-01:before {
+  content: '\e91c';
+}
+.icon-resume-02:before {
+  content: '\e91d';
+}
+.icon-resume-03:before {
+  content: '\e91e';
+}
+.icon-resume-04:before {
+  content: '\e91f';
+}
+.icon-resume-05:before {
+  content: '\e920';
+}
+.icon-resume-06:before {
+  content: '\e921';
+}
+.icon-resume-07:before {
+  content: '\e922';
+}
+.icon-resume-08:before {
+  content: '\e923';
+}
+.icon-resume-09:before {
+  content: '\e924';
+}
+.icon-resume-10:before {
+  content: '\e934';
+}
+.icon-authentication:before {
+  content: '\e935';
+}
+.icon-resume-mail:before {
+  content: '\e937';
+}
+.icon-resume-phone:before {
+  content: '\e938';
+}
+.icon-Chart:before {
+  content: '\e98a';
+}
+.icon-Line:before {
+  content: '\e98b';
+}
+.icon-People:before {
+  content: '\e98c';
+}
+.icon-thunder:before {
+  content: '\e989';
+}
+.icon-filter:before {
+  content: '\e9f2';
+}
+.icon-Pre-Entry:before {
+  content: '\e980';
+}
+.icon-research:before {
+  content: '\e982';
+}
+.icon-Triangle:before {
+  content: '\e97c';
+}
+.icon-bulb:before {
+  content: '\e977';
+}
+.icon-prize:before {
+  content: '\e97f';
+}
+.icon-commission:before {
+  content: '\e97a';
+}
+.icon-phonecall:before {
+  content: '\e974';
+}
+.icon-preview:before {
+  content: '\e972';
+}
+.icon-QA:before {
+  content: '\e962';
+}
+.icon-Recommend:before {
+  content: '\e963';
+}
+.icon-recruit:before {
+  content: '\e964';
+}
+.icon-mission:before {
+  content: '\e965';
+}
+.icon-reward:before {
+  content: '\e966';
+}
+.icon-status_failed:before {
+  content: '\e967';
+}
+.icon-status_on:before {
+  content: '\e968';
+}
+.icon-status_succeed:before {
+  content: '\e969';
+}
+.icon-manage:before {
+  content: '\ea4d';
+}
+.icon-skill:before {
+  content: '\e96a';
+}
+.icon-industry:before {
+  content: '\e96c';
+}
+.icon-clean:before {
+  content: '\e96b';
+}
+.icon-more:before {
+  content: '\e96d';
+}
+.icon-1px-tag:before {
+  content: '\e954';
+}
+.icon-1px_time:before {
+  content: '\e94e';
+}
+.icon-1px_link:before {
+  content: '\e94f';
+}
+.icon-1px-tips:before {
+  content: '\e950';
+}
+.icon-svgicon-27:before {
+  content: '\e948';
+}
+.icon-education:before {
+  content: '\e951';
+}
+.icon-job:before {
+  content: '\e952';
+}
+.icon-QR_Code:before {
+  content: '\e956';
+}
+.icon-download_resume:before {
+  content: '\e949';
+}
+.icon-copy:before {
+  content: '\e947';
+}
+.icon-unlock:before {
+  content: '\e946';
+}
+.icon-upload:before {
+  content: '\e945';
+}
+.icon-permission:before {
+  content: '\e943';
+}
+.icon-add_folder:before {
+  content: '\e944';
+}
+.icon-mail:before {
+  content: '\e942';
+}
+.icon-report:before {
+  content: '\e941';
+}
+.icon-Pass:before {
+  content: '\e93a';
+}
+.icon-Fail:before {
+  content: '\e93b';
+}
+.icon-arrow:before {
+  content: '\e939';
+}
+.icon-close_round:before {
+  content: '\e94a';
+}
+.icon-refresh:before {
+  content: '\e930';
+}
+.icon-IR:before {
+  content: '\e92e';
+}
+.icon-IR-cancel:before {
+  content: '\e92f';
+}
+.icon-minus:before {
+  content: '\e9b1';
+}
+.icon-add2:before {
+  content: '\e928';
+}
+.icon-search:before {
+  content: '\e929';
+}
+.icon-logout:before {
+  content: '\e92a';
+}
+.icon-arrow_up:before {
+  content: '\e953';
+}
+.icon-menu:before {
+  content: '\e92b';
+}
+.icon-share:before {
+  content: '\e92c';
+}
+.icon-retract_left:before {
+  content: '\e97e';
+}
+.icon-retract:before {
+  content: '\e91b';
+}
+.icon-spread:before {
+  content: '\e919';
+}
+.icon-retract_up:before {
+  content: '\e958';
+}
+.icon-list:before {
+  content: '\e918';
+}
+.icon-employ:before {
+  content: '\e981';
+}
+.icon-download:before {
+  content: '\e917';
+}
+.icon-cancel:before {
+  content: '\e916';
+}
+.icon-transpond:before {
+  content: '\e912';
+}
+.icon-favorite:before {
+  content: '\e913';
+}
+.icon-lock:before {
+  content: '\e914';
+}
+.icon-print:before {
+  content: '\e915';
+}
+.icon-flag:before {
+  content: '\e906';
+}
+.icon-interview:before {
+  content: '\e908';
+}
+.icon-time:before {
+  content: '\e909';
+}
+.icon-change:before {
+  content: '\e90a';
+}
+.icon-Settings:before {
+  content: '\e90b';
+}
+.icon-update_time:before {
+  content: '\e90c';
+}
+.icon-stick:before {
+  content: '\e90d';
+}
+.icon-restore:before {
+  content: '\e90e';
+}
+.icon-export_excel:before {
+  content: '\e90f';
+}
+.icon-close:before {
+  content: '\e910';
+}
+.icon-export:before {
+  content: '\e911';
+}
+.icon-edit:before {
+  content: '\e903';
+}
+.icon-delete:before {
+  content: '\e904';
+}
+.icon-add:before {
+  content: '\e905';
+}
+.icon-add_person:before {
+  content: '\e91a';
+}
+.icon-date:before {
+  content: '\e907';
+}
+.icon--1-01:before {
+  content: '\e900';
+}
+.icon-hide:before {
+  content: '\e901';
+}
+.icon-pop-up:before {
+  content: '\e902';
+}
+.icon-mobile_phone:before {
+  content: '\e957';
+}
+.icon-mobile_invite:before {
+  content: '\e93d';
+}
+.icon-mobile_rate:before {
+  content: '\e93f';
+}
+.icon-mobile_stood_me_up:before {
+  content: '\e940';
+}
+.icon-mobile_call:before {
+  content: '\e93e';
+}
+.icon-mobile_review:before {
+  content: '\e93c';
+}
+.icon-channel-qicherencaiwang:before {
+  content: '\ea64';
+}
+.icon-channel-mutongrencaiwang:before {
+  content: '\ea62';
+}
+.icon-channel-fuzhuangrencaiwang:before {
+  content: '\ea57';
+}
+.icon-channel-wenzhourenliziyuanwang:before {
+  content: '\ea58';
+}
+.icon-channel-zhuobo:before {
+  content: '\ea4c';
+}
+.icon-channel-shixiseng:before {
+  content: '\ea52';
+}
+.icon-channel-huibowang:before {
+  content: '\ea53';
+}
+.icon-channel-waihu:before {
+  content: '\ea32';
+}
+.icon-bot_Interview:before {
+  content: '\ea28';
+}
+.icon-channel-gongkai:before {
+  content: '\ea27';
+}
+.icon-channel-mingxiao:before {
+  content: '\ea23';
+}
+.icon-channel-chendian:before {
+  content: '\ea1f';
+}
+.icon-channel-xinanrencai:before {
+  content: '\ea1e';
+}
+.icon-channel-maimai:before {
+  content: '\ea4a';
+}
+.icon-channel-rencairexian:before {
+  content: '\e9e1';
+}
+.icon-channel-jingying:before {
+  content: '\e9de';
+}
+.icon-Talent_base:before {
+  content: '\e9c6';
+}
+.icon-robot_headhunter:before {
+  content: '\e9c4';
+}
+.icon-channel-zhilian:before {
+  content: '\e9ab';
+}
+.icon-channel-zhuopin:before {
+  content: '\e9d9';
+}
+.icon-channel-yingcai:before {
+  content: '\e9da';
+}
+.icon-channel-51job:before {
+  content: '\e9a1';
+}
+.icon-channel-58tongcheng:before {
+  content: '\e9a2';
+}
+.icon-channel-dajie:before {
+  content: '\e9a3';
+}
+.icon-channel-ganji:before {
+  content: '\e9a4';
+}
+.icon-channel-lagou:before {
+  content: '\e9a6';
+}
+.icon-channel-liepin:before {
+  content: '\e9a7';
+}
+.icon-channel-boss:before {
+  content: '\e9f9';
+}
+.icon-channel-linkedin:before {
+  content: '\e9a9';
+}
+.icon-channel-shangjin:before {
+  content: '\e9b3';
+}
+.icon-channel-lietou:before {
+  content: '\e9a8';
+}
+.icon-channel-zhipai:before {
+  content: '\ea0a';
+}
+.icon-channel-gongxiang:before {
+  content: '\e9a5';
+}
+.icon-channel-neitui:before {
+  content: '\e9aa';
+}
+.icon-others:before {
+  content: '\e9c5';
+}
+.icon-stacked_plot:before {
+  content: '\ea33';
+}
+.icon-pie:before {
+  content: '\ea34';
+}
+.icon-schedule_action:before {
+  content: '\ea1a';
+}
+.icon-schedule:before {
+  content: '\ea1b';
+}
+.icon-histogram:before {
+  content: '\e9d5';
+}
+.icon-line-chart:before {
+  content: '\e9d6';
+}
+.icon-folder:before {
+  content: '\e9cc';
+}
+.icon-new-stamp:before {
+  content: '\e9c8';
+}
+.icon-Switchvideo:before {
+  content: '\e9bf';
+}
+.icon-switchvoice:before {
+  content: '\e9c1';
+}
+.icon-answer:before {
+  content: '\e9bc';
+}
+.icon-Hangup:before {
+  content: '\e9bd';
+}
+.icon-omit:before {
+  content: '\e99e';
+}
+.icon-Top:before {
+  content: '\e99c';
+}
+.icon-selected:before {
+  content: '\e983';
+}
+.icon-switch_left:before {
+  content: '\e979';
+}
+.icon-switch_right:before {
+  content: '\e97b';
+}
+.icon-eye_close:before {
+  content: '\e96e';
+}
+.icon-eye_open:before {
+  content: '\e978';
+}
+.icon-BI:before {
+  content: '\e973';
+}
+.icon-remind:before {
+  content: '\e971';
+}
+.icon-search_normal:before {
+  content: '\e95b';
+}
+.icon-message_center_action:before {
+  content: '\e959';
+}
+.icon-personal_center_action:before {
+  content: '\e95a';
+}
+.icon-personal_center:before {
+  content: '\e94c';
+}
+.icon-message_center:before {
+  content: '\e94d';
+}
+.icon-wechat:before {
+  content: '\e925';
+}
+.icon-moments:before {
+  content: '\e9b5';
+}
+.icon-sina:before {
+  content: '\e926';
+}
+.icon-qq:before {
+  content: '\e927';
+}
+.icon-link:before {
+  content: '\e9b6';
+}
+.icon-benefit_hx:before {
+  content: '\ea42';
+}
+.icon-function_hx:before {
+  content: '\ea43';
+}
+.icon-innovate_hx:before {
+  content: '\ea44';
+}
+.icon-process_hx:before {
+  content: '\ea45';
+}
+.icon-network_hx:before {
+  content: '\ea46';
+}
+.icon-intimacy_hx:before {
+  content: '\ea47';
+}
+.icon-speed_hx:before {
+  content: '\ea48';
+}
+.icon-new-32:before {
+  content: '\ea2e';
+}
+.icon-downvolume:before {
+  content: '\e9c2';
+}
+.icon-volume:before {
+  content: '\e9c3';
+}
+.icon-Ban-speech:before {
+  content: '\e9be';
+}
+.icon-switch:before {
+  content: '\e9c0';
+}
+
+.nui-iconfont {
+  $root: &;
+  &[class^='icon-'],
+  &[class*=' icon-'] {
+    font-family: 'nui' !important;
+    display: inline-block;
+    font-style: normal;
+    text-align: center;
+    text-transform: none;
+    line-height: 1;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  &--color {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+  }
+}
