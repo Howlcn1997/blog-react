@@ -1,5 +1,5 @@
-const { injectBabelPlugin } = require("react-app-rewired");
-const rewireCssModules = require("react-app-rewire-css-modules");
+// const { injectBabelPlugin } = require("react-app-rewired");
+// const rewireCssModules = require("react-app-rewire-css-modules");
 const path = require("path");
 
 module.exports = function override(config, env) {
